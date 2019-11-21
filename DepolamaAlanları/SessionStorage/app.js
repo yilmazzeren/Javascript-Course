@@ -1,5 +1,7 @@
 /*
- Session Storage mantığı Application kısmında key ve value degerlerını bır seyler eklerız. Fakat burada degerler bız sayfayı kapattıgımızda ya da yeniledğimizde gider. Local storage de ise kayıtlı tutulur. Bu yüzden Local daha kullanışlıdır.
+ Session Storage mantığı Application kısmında key ve value degerlerını bır seyler eklerız.
+ Fakat burada degerler bız sayfayı kapattıgımızda ya da yeniledğimizde gider. 
+ Local storage de ise kayıtlı tutulur. Bu yüzden Local daha kullanışlıdır.
 */
 
 
