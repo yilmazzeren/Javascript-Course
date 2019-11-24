@@ -16,7 +16,8 @@ console.log(emp2);
       her yeni obje ürettiğimizde (emp1,emp2) belleğimizde showInfos fonksiyonundan bir tane daha oluyor
       çok sayıda üretceğimizde belleğimizde fazla bi doluluk olcak
 
-      Ama biz metodumuzu prototype'ın İçine yazarsak belleğimizde sadece 1 tane yer kaplar. Bütün objelerde aynı prototype'sahip oldugu için burdan öiras alabilirler.
+      Ama biz metodumuzu prototype'ın İçine yazarsak belleğimizde sadece 1 tane yer kaplar. 
+      Bütün objelerde aynı prototype'sahip oldugu için burdan miras alabilirler.
 
       Yani biz yukarda yazdıgımız shoInfos Fonksiyonunu prototype'ın ıcıne yazrsak bellekte fazladan yer kaplamayız.
 */
