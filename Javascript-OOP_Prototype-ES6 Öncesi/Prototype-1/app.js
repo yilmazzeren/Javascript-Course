@@ -33,5 +33,7 @@ console.log(emp);
 console.log(emp.toString);
 
 /*
-    Mesela burada toString metodu zaten proto onjesi içinde tanımlı bır fonk. Ama bız bunu kendı constructor'ımızda yazdıgımız ıcın bu isimde. Js bunu bize en temel objeden miras almıyor da direk kendi constructorımızdan getırıyor.
+    Mesela burada toString metodu zaten proto objesi içinde tanımlı bır fonk.
+    Ama bız bunu kendı constructor'ımızda yazdıgımız ıcın bu isimde.
+    Js bunu bize en temel objeden miras almıyor da direk kendi constructorımızdan getırıyor.
 */
