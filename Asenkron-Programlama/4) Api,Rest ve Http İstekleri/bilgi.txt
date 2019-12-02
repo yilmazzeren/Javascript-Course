@@ -1,0 +1,52 @@
+Api Nedir ? 
+
+-- Application Programming Interface (Uygulama programlama arayüz)
+-- Bir uygulamanın bir takım fonksiyonlarının başka uygulamalar tarafından kullanılmasını sağlayan arayüz;
+-örnek; Github API 
+-- Request ve Response (İstek ve Cevap)
+
+-- Örneğin github dan kullanıcı bilgisi almak istiyoruz. Github a request istekte bbulunuyoruz. Github kendi veritabanında buluyor ve bize response cevap veriyor. Bizde bu şekilde kullanabiliyruz. Genellikle JSON objesi ile döner bize.
+
+-- API 'lar her zaman web api olmak zorunda değil. Herhangi bir grafik kartının api olabilir. Bir masaüstü uygulamasınında api'ı olabilir
+
+--Bazı şirketler api'larını ücretsiz sunabilir bazıları ise ücretlidir. Kendimiz projemızde api oluşturabılırız. Mesela merkez bankası dovız ıcın bır api oluştursa bunu sunabılır. 
+
+
+Rest API Nedir?
+
+-- Representational State Transfer
+-- Web applicationlar arasında iletişim sağlamak için kullanılan bir api türü.
+-- Oldukça hızlıdır.
+-- Stateless bir yapıdır. Yani bir kullanıcı bir istekte bulundu rest api ile yazılırsa eğer kullanıcının oncekı ısteklerını kaydetmez. Sadece istekte bulunursa gönderir. Bu sayede daha hızlıdır.
+-- Genelde rest api'larına http isteklerinde bulunulur. Get,post,put,delete gibi
+-- Rest api bize genellikle JSON objesi gönderir.
+-- Rest api bir çok dille kullanılabilir.
+
+
+Http İstekleri
+
+-- GET : Endpoint'e(Url) göre belli verileri alır
+-- POST : Endpoint'e(Url) göre belli bir veriyi gönderir. Örneğin bir rest Api'ına bir string gönderirken gibi.
+-- PUT : Endpoint'e(Url) göre belli bir veriyi günceller.
+-- DELETE : Endpoint'e(Url) göre belli bir veriyi siler.
+
+
+Api Endpointleri örnek (Api'ların yapısı değişebilir.)
+
+GET     https://api.example.com/post (Bana tüm postları getir.)
+
+GET     https://api.example.com/post/10 (ID si 10 olan veriyi bana getir.)
+
+POST     https://api.example.com/post (Post request atarsak ve bir tane değer gönderirsek bu request içinde yeni bir post oluşabilir. )
+
+
+
+
+
+
+
+
+
+
+
+

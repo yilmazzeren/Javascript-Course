@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Yılmaz  ZEREN",
+        "departman": "Bilişim",
+        "salary": 3500
+    },
+
+    {
+        "name": "Mert  TOSUN",
+        "departman": "Bilişim",
+        "salary": 5200
+    },
+
+    {
+        "name": "Çağatay UNCU",
+        "departman": "Bilişim",
+        "salary": 4000
+    }
+]

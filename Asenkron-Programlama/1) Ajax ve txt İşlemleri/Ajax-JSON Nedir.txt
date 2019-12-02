@@ -1,0 +1,29 @@
+
+JSON Nedir?
+
+-- Javascript Object Notation (Javascript obje gösterimi)
+
+{
+    "name" : "Yılmaz",  Burada name,age,salary key gibi düşün JSONda 
+    "age"  : 26,
+    "salary": 4000
+}
+
+Asenkron bir şekilde veri alışverişi yaptığımızda JSON objelerini kullanırız.
+
+AJAX Nedir ?
+
+-- Asynchronous Javascript and XML 
+-- Veri alma ve veri gönderme Asenkron olarak
+-- Sayfa yenilenmeden Asenkron veri almak
+-- Veri alma ve veri gönderme XHR Objesi (XmlHttpRequest) ile yapılır.
+-- Veriler alırken bize json veya xml seklinde gelir.
+
+AJAX Nasıl Çalışır ?
+
+-- Mesela bir tane butona bastık ve bu buton bir tane veri alma işlemi yapacak.
+-- Veri almak için browserlarda bulunan XmlHttpRequest objesi oluşturmus oluruz.
+-- Almak istediğimiz veri mesela br tane server 'da. Oraya biz HttpRequest gönderiyoruz. (get,post,put,delete gibi)
+-- Gönderdiğimiz bu request internet üzerinden o server'a ulaşıyor.
+-- Bu request'in get post put delete olduguna göre işlem gerceklesşyor. VE bize bir tane response üretiyor. Bu response XML veya JSON olabilir.
+-- Bu datayı bize yıne ınternet uzerınden gonderıyor ve bızde bu datayı arka planda Asenkron olarak kullanabılıtoz.
