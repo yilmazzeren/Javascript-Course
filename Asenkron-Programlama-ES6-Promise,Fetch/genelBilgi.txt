@@ -1,0 +1,26 @@
+Promise objeden farkı yok aslında
+
+Mesela , biz bir sunucudan istekte bulunduk. Sunucu bize cevap verene kadar biz Pending durumdayız. 
+
+Daha sonra sunucu bıze olumlu ya da olumsuz olmak uzere 2 çeşit dönüş yapabilir.
+
+Aslında bu seneryoda 3 durum var;
+
+1) Pending durumu : Sunucadan cevap gelmeyi bekleme
+2) Olumlu bir cevap
+3) Olumsuz bir cevap
+
+-------------------------------------------------
+
+1-) Şimdi diyelimki biz bir rest api'ına bir istekte bulunduk. Mesela bir tane veri alma isteği. İlk durumda Pending durumdayız. 
+
+Gönderdiğimiz rest apisi kendi içinde bir tane Promise objesi oluşturuyor. Bu promise içinde iki değer var önemli. State değeri. State değeri şu an da biz istek attığımız ve beklediğimiz için Pending durumda. Promise içinde birde value değeri var. Bu value değeri bize ilk başta bir değer dönmediği için undefined durumda.
+
+2-) Daha sonra diyelim mi bu sunucu bizim isteiğimz aldı bir sorun olmadı. Bu durumda bu veriyi bize promise vasıtasıyla donuyor. Olumlu dönüş yani. Resolve ile bu veriyi döner bize yani olumlu dönüş durumunda. Şu an state artık resolved durumda yanı olumlu donuste. Value ise bu resolve içinde gonderılen deger olabılır.
+Başarılı durumda biz value'yu then fonk ile alacaz
+
+3-) Diyelim ki veri almakta bir sorun oldu. Yine promiseiçinden bize olumsuz bir sonuç dönecek. Bunu ise reject ile döner. Promise içindeki state rejected olacak value ise bir error mesajı olabılır.
+Başarısız bir durum varsa da catch ile yakalayacaz.
+
+
+
